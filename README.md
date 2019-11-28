@@ -15,17 +15,17 @@ Based on the work described in
     Richard Hall,
     Guillaume Godin
 
-Usage:
-    Python
-    # Returns a list of the identified functional groups in a molecule as fragments with environment carbons replaced by dummy atoms (* for aliphatic and *1 for aromatic)
+    Usage:
+        Python
+        # Returns a list of the identified functional groups in a molecule as fragments with environment carbons replaced by dummy atoms (* for aliphatic and *1 for aromatic)
     
-    fgs = identify_funtional_groups(smiles)
-    print(fgs)
+        fgs = identify_funtional_groups(smiles)
+        print(fgs)
     
-Example:
-    fgs = identify_funtional_groups('Clc1ccc2Oc3ccccc3N=C(N4CCNCC4)c2c1')
-    print(fgs)
-    ['[*][Cl]', '[*][O][*]', '[*][N]=[C]([*])[N]([*])[*]', '[*][N]([*])[H]']
+    Example:
+        fgs = identify_funtional_groups('Clc1ccc2Oc3ccccc3N=C(N4CCNCC4)c2c1')
+        print(fgs)
+        ['[*][Cl]', '[*][O][*]', '[*][N]=[C]([*])[N]([*])[*]', '[*][N]([*])[H]']
         
     
     
