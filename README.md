@@ -22,7 +22,10 @@ Usage:
     fgs = identify_funtional_groups(smiles)
     print(fgs)
     
-Output example:
-    
+Example:
+    fgs = identify_funtional_groups('Clc1ccc2Oc3ccccc3N=C(N4CCNCC4)c2c1')
+    print(fgs)
+    ['[*][Cl]', '[*][O][*]', '[*][N]=[C]([*])[N]([*])[*]', '[*][N]([*])[H]']
+        
     
     
