@@ -19,5 +19,10 @@ Usage:
     Python
     # Returns a list of the identified functional groups in a molecule as fragments with environment carbons replaced by dummy atoms (* for aliphatic and *1 for aromatic)
     
+    fgs = identify_funtional_groups(smiles)
+    print(fgs)
+    
+Output example:
+    
     
     
