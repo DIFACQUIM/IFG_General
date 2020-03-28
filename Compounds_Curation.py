@@ -1,9 +1,9 @@
 # This function is used to standardize compounds in SMILES form and it works as follows: 
-    # Compounds not parseable by RDKit returns "Error 1"
+    # Compounds not parseable by RDKit return "Error 1"
     # The largest component of multiple component compounds is retained. 
-    # Compounds consisting of any element other than H, B, C, N, O, F, Si, P, S, Cl, Se, Br and I returns "Error 2"
+    # Compounds consisting of any element other than H, B, C, N, O, F, Si, P, S, Cl, Se, Br and I return "Error 2"
     # Compounds without the mentioned errors are neutralized and reionized to subsequently generate a canonical tautomer.
-    # Any other problem returns "Check manually"
+    # Any other problem return "Check manually"
 
 from rdkit import Chem
 from molvs.standardize import Standardizer
